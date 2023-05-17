@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Strona z materiałami dotyczącymi nauki matematyki w liceum oraz do matury"
+    />
+    <meta
+      name="keywords"
+      content="matematyka, podstawowa, rozszerzona, korepetycje, matura, zadania, matura z matematyki, arkusze"
+    />
+    <title>Matma nie gryzie! - Matematyka dla licealistów</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="slide_menu.js"></script>
+    <script type="text/javascript" src="baza-dzialy.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="baza.css" type="text/css" />
+  </head>
+  <body>
+    <div id="header-top">
+      <a href="index.html"
+        ><img id="pname" src="MATMA_3.png" alt="Matma nie gryzie! - logo"
+      /></a>
+      <div id="header-left">
+        <address id="contact">
+          <ul>
+            <li>
+              <a class="email" href="mailto:matmaniegryzie@gmail.com"
+                ><span class="contact-logo">&#9993;</span>
+                <span class="resp">matmaniegryzie@gmail.com</span></a
+              >
+            </li>
+            <li>
+              <a class="phone" href="tel:+48 666 555 777"
+                ><span class="contact-logo">&#9990;</span
+                ><span class="resp"> Zadzwon: +48 666 555 777</span></a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+      <div id="header-right">
+        <ul>
+          <li id="invitation">
+            <span class="resp">Wpadnij na nasze strony:</span>
+          </li>
+          <li id="facebook">
+            <a href="#" target="_blank"
+              ><ion-icon
+                class="icons"
+                name="logo-facebook"
+                title="Nasz Facebook"
+              ></ion-icon
+            ></a>
+          </li>
+          <li id="instagram">
+            <a href="#" target="_blank"
+              ><ion-icon class="icons" name="logo-instagram"></ion-icon
+            ></a>
+          </li>
+          <li id="youtube">
+            <a href="#" target="_blank"
+              ><ion-icon class="icons" name="logo-youtube"></ion-icon
+            ></a>
+          </li>
+          <li id="tiktok">
+            <a href="#" target="_blank"
+              ><ion-icon class="icons" name="logo-tiktok"></ion-icon
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <nav id="menu-navigation">
+      <ol id="categories">
+        <li>
+          <a href="index.html"><ion-icon name="home-outline"></ion-icon></a>
+        </li>
+        <li><a href="bazawiedzy.html">BAZA WIEDZY</a></li>
+        <li id="second-menu">
+          <a href="">ARKUSZE MATURALNE</a>
+          <ul id="drop-down">
+            <li>
+              <a class="down" href="arkusze_podstawa.html">POZIOM PODSTAWOWY</a>
+            </li>
+            <li>
+              <a class="down" href="arkusze_rozszerzenie.html"
+                >POZIOM ROZSZERZONY</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li><a href="oferta.html">OFERTA</a></li>
+        <li><a href="onas.html">O NAS</a></li>
+        <li><a href="kontakt.html">KONTAKT</a></li>
+        <li><a href="sklep.html">SKLEP</a></li>
+      </ol>
+      <button id="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </button>
+    </nav>
+    <main>
+      <div id="h">
+        <h1>Baza wiedzy z matematyki</h1>
+        <h3>
+          <a
+            target="_blank"
+            href="https://www.oke.gda.pl/plikiOKE/Egzamin_maturalny/Informatory2023/wybrane_wzory_matematyczne_EM2023.pdf"
+            ><ion-icon name="book-outline"></ion-icon>Maturalna karta wzorów</a
+          >
+        </h3>
+        <p>
+          Zapraszamy do skorzystania z naszych notatek oraz zadań. Życzymy
+          przyjemnej nauki.
+        </p>
+        <p>
+          Zadania na poziomie rozszerzonym oznaczone są "&#9733;" przed numerem
+          zadania.
+        </p>
+      </div>
+      <h1 id="dzialy">Wybierz dział dla siebie</h1>
+      <div class="dzial">
+        <h2 class="clickon">
+          <ion-icon name="chevron-down"></ion-icon>Liczby rzeczywiste, działania
+        </h2>
+        <div class="slide">
+          <div class="def">
+            <div class="topic">
+              <p>Liczby rzeczywiste</p>
+            </div>
+            <p>
+              <b>Zbiór liczb rzeczywistych</b>, to zbiór wszystkich liczb -
+              wymiernych i niewymiernych. Oznaczamy go literą &#8477;
+            </p>
+            <br />
+            <p>
+              Liczb rzeczywistych istnieje <b>nieskończona liczba.</b> W prosty
+              sposób zauważymy tę własność, jeśli weźmiemy pod uwagę, że liczby
+              całkowite są podzbiorem liczb rzeczywistych. Możemy to dostrzec
+              również, jeśli zdamy sobie sprawę, że na osi liczbowej znajduje
+              się nieskończona ilość punktów.
+            </p>
+          </div>
+
+          <div>
+            <h2>Zadania</h2>
+            <div class="zad">
+              <h3>Zadanie 1</h3>
+              <p class="tersc">
+                Podaj c, jeżeli liczba 78 jest o 50% od niej większa.
+              </p>
+            </div>
+            <div class="zad">
+              <h3>Zadanie 2</h3>
+              <p class="tersc">
+                W klasie jest cztery razy więcej chłopców niż dziewcząt. Ile
+                procent wszystkich uczniów tej klasy stanowią dziewczęta?
+              </p>
+            </div>
+            <div class="zad">
+              <h3>Zadanie 3</h3>
+              <p class="tersc">
+                Uzasadnij, że liczba
+                <b> 4<sup>12</sup>+4<sup>13</sup>+4<sup>14</sup></b>
+                jest podzielna przez 42.
+              </p>
+            </div>
+            <div class="zad">
+              <h3>Zadanie 4</h3>
+              <p class="tersc">
+                Liczba ( &#8730;50 - &#8730;18)/&#8730;2 jest równa:
+              </p>
+              <ul>
+                <li>A. 2&#8730;2</li>
+                <li>B. 2</li>
+                <li>C. 4</li>
+                <li>D. &#8730;10-&#8730;6</li>
+              </ul>
+            </div>
+            <div class="zad">
+              <h3>Zadanie 5</h3>
+              <p class="tersc">
+                Cenę nart obniżono o 20%, a po miesiącu nową cenę obniżono o
+                dalsze 30%. O ile procent zmniejszyła się cena nart względem
+                początkowej ceny?
+              </p>
+            </div>
+          </div>
+          <div class="def">
+            <div class="topic">
+              <p>Zbiór</p>
+            </div>
+            <p>
+              <b>Zbiór</b> należy do tych pojęć, których się nie definiuje, jest
+              tzw. pojęciem pierwotnym. Przedmioty należące do zbioru nazywamy
+              jego elementami. Zbiory oznaczamy zwykle
+              <b>dużymi literami alfabetu</b>, a elementy zbioru - małymi.
+            </p>
+            <a
+              href="https://www.matemaks.pl/materialy/zbiory/dzialania_na_zbiorach_definicje.pdf"
+              target="_blank"
+              >Notatka z działan na zbiorach</a
+            >
+          </div>
+          <h2>Zadania</h2>
+          <div class="zad">
+            <h3>Zadanie 1</h3>
+            <p class="tersc">
+              Jeżeli A={1,2,5,9,11,13,23}, a B={1,2,3,4,9,20}, to ile równa się
+            </p>
+            <ul>
+              <li>A. A&cup;B</li>
+              <li>B. A/B</li>
+              <li>C. A &cap;B</li>
+            </ul>
+          </div>
+          <div class="zad">
+            <h3>Zadanie 2</h3>
+            <p class="tersc">
+              Wyznacz A&cup;B, A&cap;B, A&cap;C oraz (A/B)&cap;C, jeśli
+              A={1,2,5,6,8,11,12,14}, B={3,4,5,7,11,13}, a C={1,2,3,4,8,9,12}.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="dzial">
+        <h2 class="clickon">
+          <ion-icon name="chevron-down"></ion-icon>Wyrażenia algebraiczne
+        </h2>
+        <div class="slide">
+          <div class="def">
+            <div class="topic">
+              <p>Wyrażenia algebraiczne</p>
+            </div>
+            <p>
+              Wyrażenia algebraiczne - to liczby wraz z literami połączone
+              znakami działań, np.: 2x, 3y+7, a+3a<sup>2</sup>, 3x-4
+            </p>
+          </div>
+          <div>
+            <h2>Zadania</h2>
+            <div class="zad">
+              <h3>Zadanie 1</h3>
+              <p class="tersc">
+                Podaj wartość liczbową wyrażenia 3x<sup>3</sup>-4x+1 dla
+                <b>x=3.</b>
+              </p>
+            </div>
+            <div class="zad">
+              <h3>Zadanie 2</h3>
+              <p class="tersc">
+                Jaką wartość przyjmuje wyrażenie (2-3x)<sup>2</sup>-3(x-2)(2x+5)
+                dla <b>x=2</b>?
+              </p>
+            </div>
+            <div class="zad">
+              <h3>Zadanie 3</h3>
+              <p class="tersc">
+                Równość (a+2&#8730;2)<sup>2</sup>=a<sup>2</sup>+28&#8730;2 +8
+                zachodzi dla
+              </p>
+              <ul>
+                <li>A. a=14</li>
+                <li>B. a=7&#8730;2</li>
+                <li>C. a=7</li>
+                <li>D. a=2&#8730;2</li>
+              </ul>
+            </div>
+            <div class="zad">
+              <h3>Zadanie 4</h3>
+              <p class="tersc">
+                Udowodnij, że jeżeli a+b=1 i a<sup>2</sup>+ b<sup>2</sup>=7, to
+                a<sup>4</sup>+b<sup>4</sup>=31
+              </p>
+            </div>
+            <div class="zad">
+              <h3>&#9733;Zadanie 5</h3>
+              <p class="tersc">
+                Udowodnij, że dla każdej liczby rzeczywistej x i każdej liczby
+                rzeczywistej y prawdziwa jest nierówność x(x-1)+y(y-1)&ge;xy-1.
+              </p>
+            </div>
+            <div class="zad">
+              <h3>&#9733;Zadanie 6</h3>
+              <p class="tresc">
+                Udowodnij, że dla dowolnych dodatnich liczb rzeczywistych x i y
+                , takich że x&#60;y , i dowolnej dodatniej liczby rzeczywistej a
+                , prawdziwa jest nierówność (x+a)/(y+a) +(y/x)>2.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="dzial">
+        <h2 class="clickon">
+          <ion-icon name="chevron-down" id="dol"></ion-icon>Równania i
+          nierówności
+        </h2>
+        <div class="slide">
+          <div class="def">
+            <div class="topic">
+              <p>Równania</p>
+            </div>
+            <p>
+              Równaniem nazywamy równość dwóch wyrażeń, z których co najmniej
+              jedno zawiera niewiadomą. Równanie nazywamy:
+            </p>
+            <ul>
+              <li><b>oznaczonym</b> jeżeli ma dokładnie jedno rozwiązanie,</li>
+              <li>
+                <b>nieoznaczonym (tożsamościowym)</b> jeżeli ma nieskończenie
+                wiele rozwiązań,
+              </li>
+              <li><b>sprzecznym</b>jeżeli nie ma rozwiązań.</li>
+            </ul>
+          </div>
+          <div class="def">
+            <div class="topic">
+              <p>Nierówność</p>
+            </div>
+            <p>
+              Nierównością nazywamy dwa wyrażenia, z których co najmniej jedno
+              zawiera niewiadomą, połączone znakiem: &#60; , &#62; , &ge; ,
+              &le;.
+            </p>
+          </div>
+          <a
+            target="_blank"
+            href="https://maturazmatematyki.com.pl/wp-content/uploads/2019/02/8.-r%C3%B3wnania-nier%C3%B3wno%C5%9Bci-uk%C5%82ady-cz.2-zadania.pdf"
+          >
+            Pdf z zadaniami</a
+          >
+        </div>
+      </div>
+      <div class="dzial">
+        <h2 class="clickon">
+          <ion-icon name="chevron-down"></ion-icon>Funkcje
+        </h2>
+        <div class="slide">
+          <div class="def">
+            <div class="topic">
+              <p></p>
+            </div>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="dzial">
+        <h2 class="clickon">
+          <ion-icon name="chevron-down"></ion-icon>Wielomiany
+        </h2>
+        <div class="slide">
+          <div class="def">
+            <div class="topic">
+              <p></p>
+            </div>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="dzial">
+        <h2 class="clickon">
+          <ion-icon name="chevron-down"></ion-icon>Logarytmy i funkcja wymierna
+        </h2>
+        <div class="slide">
+          <div class="def">
+            <div class="topic">
+              <p></p>
+            </div>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="dzial">
+        <h2 class="clickon">
+          <ion-icon name="chevron-down"></ion-icon>Ciągi liczbowe
+        </h2>
+        <div class="slide">
+          <div class="def">
+            <div class="topic">
+              <p></p>
+            </div>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="dzial">
+        <h2 class="clickon">
+          <ion-icon name="chevron-down"></ion-icon>Trygonometria
+        </h2>
+      </div>
+      <div class="dzial">
+        <h2 class="clickon">
+          <ion-icon name="chevron-down"></ion-icon>Planimetria
+        </h2>
+      </div>
+      <div class="dzial">
+        <h2 class="clickon">
+          <ion-icon name="chevron-down"></ion-icon>Geometria analityczna
+        </h2>
+      </div>
+      <div class="dzial">
+        <h2 class="clickon">
+          <ion-icon name="chevron-down"></ion-icon>Stereometria
+        </h2>
+      </div>
+      <div class="dzial">
+        <h2 class="clickon">
+          <ion-icon name="chevron-down"></ion-icon>Elementy statystyki
+        </h2>
+      </div>
+      <div class="dzial">
+        <h2 class="clickon">
+          <ion-icon name="chevron-down"></ion-icon>Kombinatoryka i rachunek
+          prawdopodobieństwa
+        </h2>
+      </div>
+    </main>
+    <footer>
+      <div id="footer-top">
+        <div class="footer-column">
+          <a href="index.html" target="_blank"
+            ><img
+              id="footer-logo"
+              src="MATMA_do_stopki.png"
+              alt="Matma nie gryzie! Logo"
+          /></a>
+          <p>
+            Skuteczna i przyjemna nauka matematyki z młodymi ludźmi. Z chęcią
+            zaopiekujemy się twoim rozwojem matematycznym.
+          </p>
+          <p>Zapraszamy do współpracy uczniów z całej Polski.</p>
+        </div>
+        <div class="footer-column">
+          <h3>Nasze usługi:</h3>
+          <ul>
+            <li><a href="oferta.html">Oferta</a></li>
+            <li><a href="baza.html">Baza wiedzy</a></li>
+            <li>
+              <a href="arkusze_podstawa.html">Arkusze Maturalne - podstawa</a>
+            </li>
+            <li>
+              <a href="arkusze_rozszerzenie.html"
+                >Arkusze Maturalne - rozszerzenie</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Informacje:</h3>
+          <ul>
+            <li><a href="#">Polityka Prywatności</a></li>
+            <li><a href="#">RODO</a></li>
+            <li><a href="#">Regulamin</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Kontakt:</h3>
+          <ul>
+            <li><a href="#">+48 666 555 777</a></li>
+            <li><a href="#">matmaniegryzie@gmail.com</a></li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.google.com/maps/place/Wydzia%C5%82+Geologii,+Geofizyki+i+Ochrony+%C5%9Arodowiska+Akademii+G%C3%B3rniczo-Hutniczej+w+Krakowie/@50.0645243,19.9220996,17z/data=!4m13!1m7!3m6!1s0x47165b09fa7263bf:0x89193a9abbcc4bb7!2saleja+Adama+Mickiewicza,+Krak%C3%B3w!3b1!8m2!3d50.0645243!4d19.9242883!3m4!1s0x47165ba0ab5d438b:0xd0e9a2ee0c326370!8m2!3d50.0644087!4d19.9235595"
+                >aleja Adama Mickiewicza 30, <br />30-059 Kraków</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="footer-bottom">
+        <p id="authors">
+          &copy; 2023 <a href="index.html">matmaniegryzie.pl.</a><br />
+          Wykonano przez: <b>Izabela Karczewska i Natalia Kubańska</b>
+        </p>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
