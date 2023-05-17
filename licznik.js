@@ -1,4 +1,5 @@
 setInterval(Odliczanie, 1000);
+
 function Odliczanie() {
   let matura = new Date("10 May 2024 9:00:00 GMT+0100 ");
   matura = Date.parse(matura) / 1000;
