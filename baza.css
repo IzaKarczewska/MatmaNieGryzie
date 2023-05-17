@@ -1,0 +1,125 @@
+main {
+   width: 92vw;
+   margin: auto;
+}
+#h {
+   display: block;
+   width: 80vw;
+   margin: 30px auto;
+   background-color: #f3f3f3;
+   border: 4px solid #ffdb4d;
+   text-align: center;
+}
+
+#h h1 {
+   font-size: 50px;
+}
+
+#h h3 a {
+   text-decoration: none;
+   color: #ffcc00;
+   text-shadow: 2px 2px 6px #999;
+   font-size: 25px;
+   font-weight: 700;
+}
+#h p {
+   font-size: 22px;
+}
+
+#dzialy {
+   font-size: 45px;
+   color: #000080;
+   font-weight: bold;
+   text-shadow: 5px 2px 0 #ffcc00, 6px 6px 2px #999;
+   margin: 40px 10px;
+}
+.slide {
+   display: none;
+}
+
+.clickon {
+   cursor: pointer;
+   font-size: 30px;
+   margin-bottom: 35px;
+}
+
+.clickon:hover {
+   color: #000080;
+}
+
+.slide a {
+   color: #ffcc00;
+   font-size: 20px;
+   text-decoration: none;
+   font-weight: 700;
+   margin-bottom: 10px;
+}
+
+.def {
+   display: block;
+   width: 80%;
+   background-color: #d9d9d9;
+   border: 4px solid #000080;
+   margin: 40px 0;
+}
+.def .topic {
+   display: block;
+   background-color: #000080;
+   overflow: hidden;
+   width: 100%;
+   margin: 0;
+}
+
+.topic > p {
+   font-size: 24px;
+   margin-left: 10px;
+   font-weight: 700;
+   color: #ffffff;
+}
+
+.def > p,
+.def > a {
+   margin: 10px;
+   font-size: 19px;
+}
+
+.slide h2 {
+   text-transform: uppercase;
+   text-decoration: underline;
+}
+
+.zad h3 {
+   display: block;
+   width: 150px;
+   background-color: #ffdb4d;
+   text-align: center;
+   padding: 5px;
+   border-radius: 15px;
+   box-shadow: 2px 3px 0 #999;
+}
+
+.zad p {
+   font-size: 18px;
+}
+
+@media only screen and (max-width: 900px) {
+   #h h1 {
+      font-size: 35px;
+   }
+
+   #h p {
+      font-size: 18px;
+   }
+   #h h3 a {
+      font-size: 20px;
+   }
+   .clickon {
+      font-size: 25px;
+   }
+}
+
+@media only screen and (max-width: 650px) {
+   #dzialy {
+      font-size: 38px;
+   }
+}
