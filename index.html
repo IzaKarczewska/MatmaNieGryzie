@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Strona z materiałami dotyczącymi nauki matematyki w liceum oraz do matury"
+    />
+    <meta
+      name="keywords"
+      content="matematyka, podstawowa, rozszerzona, korepetycje, matura, zadania, matura z matematyki, arkusze"
+    />
+    <title>Matma nie gryzie! - Matematyka dla licealistów</title>
+    <link rel="Website icon" type="png" href="websiteIcon.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="slide_menu.js"></script>
+    <script type="text/javascript" src="licznik.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.16.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
+  <body>
+    <div id="header-top">
+      <a href="index.html"
+        ><img id="pname" src="MATMA_3.png" alt="Matma nie gryzie! - logo"
+      /></a>
+      <div id="header-left">
+        <address id="contact">
+          <ul>
+            <li>
+              <a class="email" href="mailto:matmaniegryzie@gmail.com"
+                ><ion-icon name="mail" class="contact-logo"></ion-icon>
+                <span class="resp">matmaniegryzie@gmail.com</span></a
+              >
+            </li>
+            <li>
+              <a class="phone" href="tel:+48 666 555 777"
+                ><ion-icon name="call" class="contact-logo"></ion-icon
+                ><span class="resp"> Zadzwon: +48 666 555 777</span></a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+      <div id="header-right">
+        <ul>
+          <li id="invitation">
+            <span class="resp">Wpadnij na nasze strony:</span>
+          </li>
+          <li id="facebook">
+            <a href="#" target="_blank"
+              ><ion-icon
+                class="icons"
+                name="logo-facebook"
+                title="Nasz Facebook"
+              ></ion-icon
+            ></a>
+          </li>
+          <li id="instagram">
+            <a href="#" target="_blank"
+              ><ion-icon class="icons" name="logo-instagram"></ion-icon
+            ></a>
+          </li>
+          <li id="youtube">
+            <a href="#" target="_blank"
+              ><ion-icon class="icons" name="logo-youtube"></ion-icon
+            ></a>
+          </li>
+          <li id="tiktok">
+            <a href="#" target="_blank"
+              ><ion-icon class="icons" name="logo-tiktok"></ion-icon
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <nav id="menu-navigation">
+      <ol id="categories">
+        <li>
+          <a href="index.html"><ion-icon name="home-outline"></ion-icon></a>
+        </li>
+        <li><a href="bazawiedzy.html">BAZA WIEDZY</a></li>
+        <li id="second-menu">
+          <a href="">ARKUSZE MATURALNE</a>
+          <ul id="drop-down">
+            <li>
+              <a class="down" href="arkusze_podstawa.html">POZIOM PODSTAWOWY</a>
+            </li>
+            <li>
+              <a class="down" href="arkusze_rozszerzenie.html"
+                >POZIOM ROZSZERZONY</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li><a href="oferta.html">OFERTA</a></li>
+        <li><a href="onas.html">O NAS</a></li>
+        <li><a href="kontakt.html">KONTAKT</a></li>
+        <li><a href="sklep.html">SKLEP</a></li>
+      </ol>
+      <button id="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </button>
+    </nav>
+    <main>
+      <div id="Mphoto">
+        <div id="photo-shadow">
+          <div id="photo-text">
+            <h1>POMOC Z MATEMATYKI</h1>
+            <p>
+              Chcesz zrozumieć matematykę? Zostań z nami i zobacz naszą ofertę
+              edukacyjną. Jesteśmy innowacyjną platformą matematyczną.
+              Kształcimy młodzież już od 4 lat!
+            </p>
+            <p>
+              Pokonaj z nami trudności w nauce oraz popraw swoje wyniki w szkole
+              lub na maturze.
+            </p>
+            <a id="btn-oferta" href="oferta.html">Zobacz nasze produkty</a>
+            <a id="btn-kontakt" href="kontakt.html">Skontaktuj się z nami</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="row">
+        <h2>
+          <b>Matma nie gryzie! - kursy i korepetycje z matematyki</b>
+        </h2>
+        <div id="grid">
+          <div class="row-element">
+            <ion-icon name="earth"></ion-icon>
+            <h4>Uczysz się skąd chcesz</h4>
+            <p>
+              Prowadzimy działalność online, co umożliwia nam dotarcie do
+              większej ilosci osób, a ty możesz się z nami łączyć bez
+              wychodzenia z domu, a nawet z drugiego końca świata.
+            </p>
+          </div>
+          <div class="row-element">
+            <ion-icon name="wallet"></ion-icon>
+            <h4>Pierwsze zajęcia za darmo</h4>
+            <p>
+              Przysługują Ci zajęcia próbne, podczas któych zapoznasz się z
+              naszym systemem nauczania i stwierdzisz, czy Ci odpowiada.
+            </p>
+          </div>
+          <div class="row-element">
+            <ion-icon name="home"></ion-icon>
+            <h4>Usystematyzowanie wiedzy poprzez zadania domowe</h4>
+            <p>
+              Po każdych zajęciach otrzymasz dawkę różnych zadań do
+              przerobienia. Twój nauczyciel będzie do Twojej dyspozycji w razie
+              pytań.
+            </p>
+          </div>
+          <div class="row-element">
+            <ion-icon name="document"></ion-icon>
+            <h4>Darmowy dostęp do notatek</h4>
+            <p>
+              Nasza baza wiedzy ciągle się powiększa. To tam znajdziesz
+              przykładowe zadania oraz tematy z konkretnych działów. Nie
+              zabraknie też dawki potrzebnej teorii.
+            </p>
+          </div>
+          <div class="row-element">
+            <ion-icon name="lock-open"></ion-icon>
+            <h4>Pokonamy każdą barierę</h4>
+            <p>
+              U nas nie ma "trudnych przypadków". Wierzymy, że każdemu da się
+              pomóc zrozumieć pewne zagadnienia i tematy.
+            </p>
+          </div>
+          <div class="row-element">
+            <ion-icon name="calculator"></ion-icon>
+            <h4>Najważniejsze są Twoje potrzeby</h4>
+            <p>
+              Stosujemy indywidualne podejście. To Ty i Twoje potrzeby w
+              zakresie zdobywania wiedzy z matematyki są dla mnie najważniejsze.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="dark">
+        <a href="index.html" target="_blank"
+          ><img
+            id="dark-photo"
+            src="MATMA_do_stopki.png"
+            alt="Matma nie gryzie! Logo"
+            style="display: block; margin: auto" /></a
+        ><br />
+        <h1>DO MATURY Z MATEMATYKI POZOSTAŁO</h1>
+        <div id="licznik">
+          <div id="days"></div>
+          <div id="hours"></div>
+          <div id="minutes"></div>
+          <div id="seconds"></div>
+        </div>
+        <p>
+          Nie zwlekaj i już dziś zakup nasz kurs lub zajęcia indywidualne.
+          Zapraszamy do naszego sklepu.
+          <a target="_blank" href="sklep.html"
+            ><ion-icon name="cart" style="color: #ffffff"></ion-icon></a
+          ><br /><br />
+          Z nami zdążysz nadrobić material nawet w 2 miesiące!
+        </p>
+      </div>
+
+      <div id="why">
+        <div class="why-column">
+          <h1 id="why-header">Dlaczego warto nam zaufać?</h1>
+          <p>
+            Zaufały nam juz setki uczniów szkół średnich w kraju.
+            <b>Ich opinie</b>
+            możesz przeczytać
+            <span id="opinie">
+              <a target="_blank" href="onas.html"
+                ><ion-icon name="caret-forward"></ion-icon>tutaj
+              </a></span
+            >
+            po zjechaniu na dół strony. Jesteśmy renomowaną firmą z imponującymi
+            wynikami naszych uczniów.
+          </p>
+          <br />
+          <p>
+            Jeśli chcesz ulepszyć swoje umiejętności matematyczne -
+            <span style="color: #039; font-weight: 700">
+              w idealnym miejscu!</span
+            >
+            Nasza misja to sprawdzić, by matematyka była dla Ciebie
+            <b>zrozumiała i przyjemna.</b>
+          </p>
+        </div>
+        <div class="why-column">
+          <img alt="Zadowone maturzystki" src="glowna/zadowoleni.jpg" />
+        </div>
+      </div>
+      <div id="stopper">..............................................</div>
+      <div id="stat"></div>
+      <div id="liceum">
+        <div id="lic-column">
+          <img alt="matematyka" src="glowna/mathematics.jpg" />
+        </div>
+        <div id="lic-column">
+          <h1>Drogi licealisto!</h1>
+          <p>
+            Nie rób sobie zbędnych zaległości. Zauważasz, że masz
+            <b>problem z nauką matematyki?</b> Nie czekaj, tylko skontaktuj się
+            z nami.
+          </p>
+          <p>
+            Korzystaj z naszych darmowych źródeł wiedzy jak i tych płatnych -
+            <b>ceny obniżyliśmy do minimum!</b> Uwierz nam, że warto
+            zainwestować w swoją wiedzę.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div id="footer-top">
+        <div class="footer-column">
+          <a href="index.html" target="_blank"
+            ><img
+              id="footer-logo"
+              src="MATMA_do_stopki.png"
+              alt="Matma nie gryzie! Logo"
+          /></a>
+          <p>
+            Skuteczna i przyjemna nauka matematyki z młodymi ludźmi. Z chęcią
+            zaopiekujemy się twoim rozwojem matematycznym.
+          </p>
+          <p>Zapraszamy do współpracy uczniów z całej Polski.</p>
+        </div>
+        <div class="footer-column">
+          <h3>Nasze usługi:</h3>
+          <ul>
+            <li><a href="oferta.html">Oferta</a></li>
+            <li><a href="baza.html">Baza wiedzy</a></li>
+            <li>
+              <a href="arkusze_podstawa.html">Arkusze Maturalne - podstawa</a>
+            </li>
+            <li>
+              <a href="arkusze_rozszerzenie.html"
+                >Arkusze Maturalne - rozszerzenie</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Informacje:</h3>
+          <ul>
+            <li><a href="#">Polityka Prywatności</a></li>
+            <li><a href="#">RODO</a></li>
+            <li><a href="#">Regulamin</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Kontakt:</h3>
+          <ul>
+            <li><a href="#">+48 666 555 777</a></li>
+            <li><a href="#">matmaniegryzie@gmail.com</a></li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.google.com/maps/place/Wydzia%C5%82+Geologii,+Geofizyki+i+Ochrony+%C5%9Arodowiska+Akademii+G%C3%B3rniczo-Hutniczej+w+Krakowie/@50.0645243,19.9220996,17z/data=!4m13!1m7!3m6!1s0x47165b09fa7263bf:0x89193a9abbcc4bb7!2saleja+Adama+Mickiewicza,+Krak%C3%B3w!3b1!8m2!3d50.0645243!4d19.9242883!3m4!1s0x47165ba0ab5d438b:0xd0e9a2ee0c326370!8m2!3d50.0644087!4d19.9235595"
+                >aleja Adama Mickiewicza 30, <br />30-059 Kraków</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="footer-bottom">
+        <p id="authors">
+          &copy; 2023 <a href="index.html">matmaniegryzie.pl.</a><br />
+          Wykonano przez: <b>Izabela Karczewska i Natalia Kubańska</b>
+        </p>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      let xYears = [2019, 2020, 2021, 2022];
+
+      let pol = {
+        x: xYears,
+        y: [50, 65, 49, 72],
+        mode: "lines+markers",
+        type: "bar",
+        name: "Średnia w kraju",
+        marker: { color: "#997a00" },
+      };
+
+      let my = {
+        x: xYears,
+        y: [75, 80, 92, 95],
+        mode: "lines+markers",
+        type: "bar",
+        name: "Średnia naszych uczniów",
+        marker: { color: "#ffc800" },
+      };
+
+      let data = [pol, my];
+
+      let layout = {
+        barmode: "group",
+        title: {
+          text: "Średni wynik matury podstawowej w poprzednich latach",
+          font: { size: 30, color: "#009" },
+        },
+      };
+      let dzis = new Date();
+      console.log(dzis);
+      Plotly.newPlot("stat", data, layout);
+    </script>
+  </body>
+</html>
